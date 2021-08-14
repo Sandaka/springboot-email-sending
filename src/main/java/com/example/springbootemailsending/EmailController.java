@@ -26,7 +26,7 @@ public class EmailController {
         MimeMessageHelper helper = new MimeMessageHelper(message);
 
         try {
-            helper.setTo("pawani.madhu1@gmail.com");
+            helper.setTo("demo@gmail.com");
             helper.setText("<html>\n" +
                     "<head>\n" +
                     "<style>\n" +
